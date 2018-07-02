@@ -1,0 +1,23 @@
+.new{
+	display: inline-block;
+	border:3px;
+	padding: 3px;
+	margin: 10px;
+	border-radius: 25px;
+	background-color: rgba(41, 198, 41,0.5);
+}
+.new:hover{
+	animation-name: glow;
+	animation-duration: 1s;
+	/*animation-iteration-count: 1;*/
+}
+
+@keyframes glow{
+	0%{
+		transform: scale(1,1);
+	}
+
+	100%{
+		transform: scale(1.08,1.08);
+	}
+}

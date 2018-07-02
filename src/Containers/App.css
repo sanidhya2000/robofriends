@@ -1,0 +1,21 @@
+
+	/*@font-face {
+font-family: 'SEGA LOGO FONT';
+font-style: normal;
+font-weight: normal;
+src: local('SEGA LOGO FONT'), url('SEGA.woff') format('woff');
+}
+
+h1{
+	font-family: 'SEGA LOGO FONT';
+}*/
+@import url('https://fonts.googleapis.com/css?family=Arvo|Pacifico|Roboto+Slab');
+h1{
+	font-family: 'Pacifico';
+	font-size: 3.2rem;
+	font-weight: 200;
+}
+hr{
+	height: 1px;
+	background:black;
+}
